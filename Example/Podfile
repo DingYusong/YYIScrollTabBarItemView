@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YYIScrollTabBarItemView_Example' do
+  pod 'YYIScrollTabBarItemView', :path => '../'
+
+  target 'YYIScrollTabBarItemView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
