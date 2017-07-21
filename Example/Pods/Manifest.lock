@@ -1,0 +1,22 @@
+PODS:
+  - Masonry (1.0.2)
+  - YYIBaseCategories (0.1.1)
+  - YYIScrollTabBarItemView (0.1.0):
+    - Masonry (~> 1.0.2)
+    - YYIBaseCategories (~> 0.1.1)
+
+DEPENDENCIES:
+  - YYIScrollTabBarItemView (from `../`)
+
+EXTERNAL SOURCES:
+  YYIScrollTabBarItemView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  YYIBaseCategories: 3fcd2cc36f4ff73dc7311cdfe38cf5ea1d42ed41
+  YYIScrollTabBarItemView: 650e510de9043e0b90902f181549f9e523e463cc
+
+PODFILE CHECKSUM: cf8f6aeb60d7e115636e0b83859219d03dd213b1
+
+COCOAPODS: 1.2.0

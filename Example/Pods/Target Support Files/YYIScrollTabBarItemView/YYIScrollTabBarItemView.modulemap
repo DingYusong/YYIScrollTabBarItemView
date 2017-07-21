@@ -1,0 +1,6 @@
+framework module YYIScrollTabBarItemView {
+  umbrella header "YYIScrollTabBarItemView-umbrella.h"
+
+  export *
+  module * { export * }
+}

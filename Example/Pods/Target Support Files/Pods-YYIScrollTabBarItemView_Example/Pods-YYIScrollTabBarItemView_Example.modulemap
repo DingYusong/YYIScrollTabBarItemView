@@ -1,0 +1,6 @@
+framework module Pods_YYIScrollTabBarItemView_Example {
+  umbrella header "Pods-YYIScrollTabBarItemView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

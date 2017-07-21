@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YYIScrollTabBarItemView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of YYIScrollTabBarItemView.'
+  s.summary          = '自定义tabbar，一般用户顶部栏目区分'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -24,19 +24,20 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/DingYusong/YYIScrollTabBarItemView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'DingYusong' => 'yusong.ding@huangjinqianbao.com' }
+  s.author           = { 'DingYusong' => 'dys90@qq.com' }
   s.source           = { :git => 'https://github.com/DingYusong/YYIScrollTabBarItemView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'YYIScrollTabBarItemView/Classes/**/*'
+  s.source_files = 'YYIScrollTabBarItemView/*'
   
   # s.resource_bundles = {
   #   'YYIScrollTabBarItemView' => ['YYIScrollTabBarItemView/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit', 'Foundation'
+  s.dependency   'Masonry', '~> 1.0.2'
+  s.dependency   'YYIBaseCategories', '~> 0.1.1'
 end

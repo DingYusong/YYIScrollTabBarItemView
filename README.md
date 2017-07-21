@@ -22,7 +22,7 @@ pod "YYIScrollTabBarItemView"
 
 ## Author
 
-DingYusong, yusong.ding@huangjinqianbao.com
+DingYusong, dys90@qq.com
 
 ## License
 
